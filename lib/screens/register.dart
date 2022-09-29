@@ -172,18 +172,25 @@ class _RegisterState extends State<Register> {
                                     ],
                                   ),
                                   Center(
-                                    child: RaisedButton(
-                                      textColor: NowUIColors.white,
-                                      color: NowUIColors.primary,
+                                    child: ElevatedButton(
+                                      style: ButtonStyle(
+                                          backgroundColor:
+                                              MaterialStateProperty.all(
+                                                  NowUIColors.white),
+                                          textStyle: MaterialStateProperty.all(
+                                              TextStyle(
+                                                  color: NowUIColors.primary))),
+                                      // textColor: NowUIColors.white,
+                                      // color: NowUIColors.primary,
                                       onPressed: () {
                                         // Respond to button press
                                         Navigator.pushReplacementNamed(
                                             context, '/home');
                                       },
-                                      shape: RoundedRectangleBorder(
-                                        borderRadius:
-                                            BorderRadius.circular(32.0),
-                                      ),
+                                      // shape: RoundedRectangleBorder(
+                                      //   borderRadius:
+                                      //       BorderRadius.circular(32.0),
+                                      // ),
                                       child: Padding(
                                           padding: EdgeInsets.only(
                                               left: 32.0,

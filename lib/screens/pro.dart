@@ -125,13 +125,13 @@ class Pro extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 16.0),
                         child: SizedBox(
                           width: double.infinity,
-                          child: FlatButton(
-                            textColor: NowUIColors.white,
-                            color: NowUIColors.info,
+                          child: TextButton(
+                            // textColor: NowUIColors.white,
+                            // color: NowUIColors.info,
                             onPressed: _launchURL,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(4.0),
-                            ),
+                            // shape: RoundedRectangleBorder(
+                            //   borderRadius: BorderRadius.circular(4.0),
+                            // ),
                             child: Padding(
                                 padding: EdgeInsets.only(
                                     left: 16.0,

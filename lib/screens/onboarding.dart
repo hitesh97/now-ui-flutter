@@ -88,15 +88,15 @@ class Onboarding extends StatelessWidget {
                   padding: const EdgeInsets.only(top: 16.0),
                   child: SizedBox(
                     width: double.infinity,
-                    child: FlatButton(
-                      textColor: NowUIColors.white,
-                      color: NowUIColors.info,
+                    child: TextButton(
+                      // textColor: NowUIColors.white,
+                      // color: NowUIColors.info,
                       onPressed: () {
                         Navigator.pushReplacementNamed(context, '/home');
                       },
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(4.0),
-                      ),
+                      // shape: RoundedRectangleBorder(
+                      //   borderRadius: BorderRadius.circular(4.0),
+                      // ),
                       child: Padding(
                           padding: EdgeInsets.only(
                               left: 16.0, right: 16.0, top: 16, bottom: 16),
